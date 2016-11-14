@@ -1,0 +1,111 @@
+.altmedia-fa-side-panel{
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 25%;
+    background: #222;
+    padding: 3em 1em 0;
+    text-align: left;
+    color:#fff;
+    box-shadow: -1px 0px 5px rgba(0, 0, 0, .4);
+}
+
+.altmedia-fa-side-panel a,.altmedia-fa-side-panel h3{
+    color:#fff;
+}
+
+.cc-message{
+    font-size: .9em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 20px;
+    color: lawngreen;
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+
+.fade-out{
+    opacity: 0;
+}
+
+.altmedia-fa-side-panel h3{
+    text-align: left;
+    border-bottom: 1px solid;
+    margin-bottom: .5em;
+    font-family: inherit;
+}
+
+.url-buttons{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.url-buttons .btn{
+    margin: .5em;
+}
+
+.btn{
+    height: 30px;
+    line-height: 28px;
+    background: #00a0d2;
+    border-color: #0073aa;
+    -webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    box-shadow: inset 0 1px 0 rgba(120,200,230,.5),0 1px 0 rgba(0,0,0,.15);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn.update{
+    position: fixed;
+    right: 1em;
+    bottom: 2em;
+}
+
+.btn a, #cpclip.btn, .btn.update{
+    padding: 0 12px 2px;
+}
+
+.altmedia-tagcloud{
+    color:#e54e53;
+}
+
+.altmedia-tagcloud a{
+    padding: 2px 7px;
+    border: 1px solid;
+    margin: 2px 0.1em;
+    display: inline-block;
+    color:deepskyblue;
+    cursor: pointer;
+}
+
+.altmedia-tagcloud a:hover{
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.add-new-tag{
+    font-size:1em;
+    border: none !important;
+    line-height: normal;
+    margin: 0 0 0 .5em;
+    padding: .5em 0 0 0;
+    color:coral !important;
+}
+
+input.newtag{
+    min-width: 90%;
+    margin-top: .5em;
+}
+
+.clear{
+    display: block;
+    clear: both;
+}
